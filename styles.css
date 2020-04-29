@@ -1,0 +1,102 @@
+.header-wrapper {
+    padding: 80px 0 64px;
+}
+
+h1 {
+    font-weight: 600;
+}
+h4 {
+    margin: 16px 0;
+    padding: 0;
+}
+p {
+    margin: 0 0 32px 0;
+    padding: 0; 
+    font-size: 16px;
+    line-height: 28.48px;
+}
+
+/* EXISTING STYLES */
+#current-example {
+    background-color: transparent;
+    border: .0625rem dotted transparent;
+    box-shadow: rgb(116, 143, 184) 0px -3.2px 0px 0px inset;
+    color: rgb(37, 79, 144);
+    cursor: pointer;
+    display: inline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: auto;
+    letter-spacing: 0.2px;
+    line-height: 28.48px;
+    text-decoration: none;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.25s, 0.25s;
+    transition-property: box-shadow, -webkit-box-shadow;
+    transition-timing-function: ease, ease;
+}
+#current-example:visited {
+    color: #666;
+}
+#current-example:hover {
+    background-color: transparent;
+    border: .0625rem dotted transparent;
+    box-shadow: rgb(221, 238, 255) 0px -20px 0px 0px inset;
+    text-decoration: none;
+}
+
+#current-example:active {
+    color: #000;
+}
+
+#current-example:focus {
+    border: .0625rem dotted #748fb8;
+    outline: none;
+}
+
+
+
+/* REVISED STYLES */
+#revised-example{
+    background-color: transparent;
+    border: none;
+    border-bottom: rgb(116, 143, 184) solid 2px;
+    color: rgb(37, 79, 144);
+    cursor: pointer;
+    display: inline;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: auto;
+    letter-spacing: 0.2px;
+    line-height: 28.48px;
+    text-decoration: none;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.25s, 0.25s;
+    transition-property: box-shadow, -webkit-box-shadow;
+    transition-timing-function: ease, ease;
+}
+#revised-example:visited {
+    color: #A42079 !important;
+    border-bottom-color: #DFB1D0 !important;
+}
+#revised-example:hover {
+    background-color: transparent;
+    border: none;
+    box-shadow: rgb(221, 238, 255) 0px -20px 0px 0px inset;
+    text-decoration: none;
+}
+
+#revised-example:active {
+    color: #000;
+    border-bottom: rgb(116, 143, 184) solid 2px;
+}
+
+#revised-example:focus {
+    border: .0625rem dotted #748fb8;
+    border-bottom: rgb(116, 143, 184) solid 2px;
+    outline: none;
+}
+
+
